@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OkulModelStoreContainer" CdmEntityContainer="OkulEntities">
+    <EntitySetMapping Name="ogrenciBilgileri">
+      <EntityTypeMapping TypeName="OkulModel.ogrenciBilgileri">
+        <MappingFragment StoreEntitySet="ogrenciBilgileri">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="kayitTarihi" ColumnName="kayitTarihi" />
+          <ScalarProperty Name="adSoyad" ColumnName="adSoyad" />
+          <ScalarProperty Name="gsmNo" ColumnName="gsmNo" />
+          <ScalarProperty Name="aktifMi" ColumnName="aktifMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
